@@ -47,6 +47,11 @@
     #define CONFIG_STM32_HAL_HDR "stm32f4xx_hal.h"
     #define CONFIG_CONSOLE_UART huart2
 
+#elif defined STM32F429xx
+
+    #define CONFIG_STM32_HAL_HDR "stm32f4xx_hal.h"
+    #define CONFIG_CONSOLE_UART huart3
+
 #elif defined STM32L452xx
 
     #define CONFIG_STM32_HAL_HDR "stm32l4xx_hal.h"
